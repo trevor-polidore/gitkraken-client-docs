@@ -14,7 +14,7 @@ Quickly access your favorite repos using the drop-down menu or shortcut keys.
 
 Navigate to <kbd><strong>File > Open</strong></kbd> to open the Repo Management tab.
 
-Click on the star icon at the left of the repo.
+Click on the star icon at the left of the repo to favorite or unfavorite repositories.
 
 <img src="/wp-content/uploads/gkc-repo-mngmt-tab-star-repos.png" class="img-bordered img-responsive center">
 
