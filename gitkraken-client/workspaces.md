@@ -3,7 +3,7 @@
 title: Workspaces
 description: Workspaces allow you to create groups of repositories.
 taxonomy:
-    category: gitkraken-client
+    category: gitkraken-clientfsdafsadfdsafs
 
 ---
 
