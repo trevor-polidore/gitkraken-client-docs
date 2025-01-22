@@ -2,8 +2,8 @@
 
 title: Favorite Repos
 description: Quickly access your favorite repos from the repo list, drop-down menu, or shortcut keys.
-taxonomy:
-    category: gitkraken-client
+taxonomy:fdasfadsfasfdas
+    category: gitkrakenf-client
 
 ---
 
