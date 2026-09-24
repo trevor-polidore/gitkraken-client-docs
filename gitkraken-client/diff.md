@@ -1,7 +1,7 @@
 ---
 
 title: Diff, Patch, Blame, and History 
-description: Compare your changes with diffs in GitKraken Client. Learn about where to access diffs, file blame, and more.
+description: Compare your changes with diffs in GitKraken Desktop. Learn about where to access diffs, file blame, and more.
 taxonomy:
     category: gitkraken-client
 
@@ -11,19 +11,19 @@ taxonomy:
     <iframe width="560" height="315" src="https://www.youtube.com/embed/-0bn2H63axM?ecver=1" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Compare changes within GitKraken Client _diffs_. Learn where to access _diffs_, and how to access _file history_ or _file blame_.
+Compare changes within GitKraken Desktop _diffs_. Learn where to access _diffs_, and how to access _file history_ or _file blame_.
 
 ***
 
 <a id="what-is-a-diff-in-gitkraken"></a>
 
-## What is a diff in GitKraken Client?
+## What is a diff in GitKraken Desktop?
 
-A diff shows what was added or removed from a file. <span style='color: #d90171;'>Red</span> is for lines where content was removed whereas <span style='color: #7bd938;'>green</span> is for new lines added.
+A diff shows additions and removals from a file. <span style='color: #d90171;'>Red</span> is for lines where content was removed whereas <span style='color: #7bd938;'>green</span> is for new lines added.
 
-<img src='/wp-content/uploads/diff-1.png' srcset='/wp-content/uploads/diff-1@2x.png 2x' class='img-bordered img-responsive center' />
+<img src='/wp-content/uploads/diff-1.png' srcset='/wp-content/uploads/diff-1@2x.png 3x' class='img-bordered img-responsive center' />
 
-GitKraken Client's diff comes included with the following:
+GitKraken Desktop's diff comes included with the following:
 
 - Word diffing
 - Syntax highlighting
@@ -41,7 +41,7 @@ Access the diff of a file from:
 * **Staging**: Click on a file
 * **Commit node**: With a commit node selected, click on any file
 
-If you have two commits selected, GitKraken Client shows the difference between the two commits.
+If you have two commits selected, GitKraken Desktop shows the difference between the two commits.
 
 <img src='/wp-content/uploads/two-diffs.png' srcset='/wp-content/uploads/two-diffs@2x.png 2x' class='img-bordered img-responsive center'>
 
@@ -74,7 +74,7 @@ Configure your preferred external diff tool from <em class='context-menu'>Prefer
 
 <img src="/wp-content/uploads/externaldiff.png" srcset="/wp-content/uploads/externaldiff@2x.png" class="img-bordered img-responsive center">
 
-GitKraken Client currently _only supports_ the following diff tools:
+GitKraken Desktop currently _only supports_ the following diff tools:
 
 - Beyond Compare
 - FileMerge
@@ -160,17 +160,17 @@ Use the top toggle button to switch between <kbd>Diff View</kbd>, which shows th
 
 A patch, or patchfile, is a file describing changes between 2 files. Patch files can be used to distribute changes that a given user would like to make to a particular revision without codifying it onto a git server. Patches can be created from either a commit(s) or a file(s).
 
+To create a patch from a file, right-click on a file and select `Create patch from file changes`. You will be prompted to name the patch after.
+
+<img src='/wp-content/uploads/create-patch-file.png' srcset='/wp-content/uploads/create-patch-file@2x.png' class='img-bordered img-responsive center'>
+
 To create a patch from a commit, right-click a commit and select `Create patch from commit`. You will be prompted to name the patch after.
 
 <img src='/wp-content/uploads/create-patch-commit.png' srcset='/wp-content/uploads/create-patch-commit@2x.png' class='img-bordered img-responsive center'>
 
-To create a patch from a file, right-click a file and select `Create patch from file changes`. You will be prompted to name the patch after.
+You can also multi-select files or commits by holding ctrl/command or shift and clicking. You can then right-click the selected files or commits to create a patch from the selected.
 
-<img src='/wp-content/uploads/create-patch-file.png' srcset='/wp-content/uploads/create-patch-file@2x.png' class='img-bordered img-responsive center'>
-
-You can also multi-select files or commits by holding command/ctrl or shift and clicking. You can then right-click the selected files or commits to create a patch from the selected.
-
-<img src='/wp-content/uploads/multi-selected-patch.png' srcset='/wp-content/uploads/multi-selected-patch@2x.png' class='img-bordered img-responsive center'>
+<img src='/wp-content/uploads/multi-selected-patch-v2.png' srcset='/wp-content/uploads/multi-selected-patch@2x.png' class='img-bordered img-responsive center'>
 
 To apply a patch, use the keyboard shortcut `command/ctrl + Shift + P` or click the <i  class="fa fa-magic" style="transform: rotate(225deg)"></i> in the top right of the UI to bring up the Command Palette. Type “Apply Patch" to summon the “Apply Patch” command, and select it to open your file explorer. 
 
@@ -181,5 +181,5 @@ Select your .patch file to then apply changes to your working directory.
 <img src='/wp-content/uploads/patch-applied.png' srcset='/wp-content/uploads/patch-applied@2x.png' class='img-bordered img-responsive center'>
 
 <div class='callout callout--basic'>
-    <p>Note: GitKraken Client does not yet support generating patches from binary files. This is a preliminary release with better support coming, and if you have feedback please reach out to our <a href="https://www.gitkraken.com/git-client/contact-support">support team</a>. </p>
+    <p>Note: GitKraken Desktop does not yet support generating patches from binary files. This is a preliminary release with better support coming, and if you have feedback please reach out to our <a href="https://www.gitkraken.com/git-client/contact-support">support team</a>. </p>
 </div>

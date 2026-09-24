@@ -1,7 +1,7 @@
 ---
 
 title: GitKraken Boards
-description: Integrate GitKraken Client with your GitKraken Boards for easy task tracking.
+description: Integrate GitKraken Desktop with your GitKraken Boards for easy task tracking.
 taxonomy:
     category: gitkraken-client
 
@@ -11,7 +11,6 @@ taxonomy:
     <p> GitKraken Boards and GitKraken Timelines has sunset at the end of 2022. Please read our <a href="https://www.gitkraken.com/boards-and-timelines" target="_blank">full anouncement and FAQ</a> to learn more. </p>
 </div>
 
-For anthing related to GitKraken Boards, refer to [this documnetation](https://support.gitkraken.com/boards/quick-start/)
 
 ***
 

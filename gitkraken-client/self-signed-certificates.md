@@ -16,7 +16,7 @@ GitKraken's remote hosting platform integrations may require users to have a cer
 Self-signed certificates must be added to your trusted root directory before GitKraken will recognize the cert. This can be done through your operating system or in many browsers.
 
 <div class='callout callout--basic'>
-    <p><strong>Note:</strong> If you have the <a href="https://help.gitkraken.com/gitkraken-client/experimental-features/#git-executable">Git Executable</a> enabled, SSL settings in the global <code>.gitconfig</code> file are honored by GitKraken Client for actions performed by the Git executable.</p>
+    <p><strong>Note:</strong> If you have the <a href="https://help.gitkraken.com/gitkraken-client/experimental-features/#git-executable">Git Executable</a> enabled, SSL settings in the global <code>.gitconfig</code> file are honored by GitKraken Desktop for actions performed by the Git executable.</p>
 </div>
 
 ### Using Google Chrome on Windows
@@ -96,9 +96,9 @@ openssl x509 -outform der -in DOWNLOADED-CERT-NAME -out DOWNLOADED-CERT-NAME.crt
 certutil -d sql:$HOME/.pki/nssdb -A -t "CT,C,C" -n DOWNLOADED-CERT-NAME.crt -i DOWNLOADED-CERT-NAME.crt
 ```
 
-Finally, run:
+Finally, run the following to verify it was added:
 ```
-certutil -d sql:$HOME/.pki/nssdb -L to verify it was added
+certutil -d sql:$HOME/.pki/nssdb -L
 ```
 
 Now close Chrome completely and re-open. Navigate to the site to confirm that you are no longer recieving a certificate warning.
