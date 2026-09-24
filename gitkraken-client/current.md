@@ -22,24 +22,7 @@ Check out our [GitKraken Roadmap](https://www.gitkraken.com/git-client/roadmap) 
 ### Tuesday, June 4th, 2024
 
 ### Improvements 🙌
- - Repo Management View:
-   - When accessing the repo management tab the search bar is focused.
-   - Workspace icons will now show in the collapsible section header.
-   - Your scroll position will be saved when returning to the Repository Management tab.
-   - After creating a new Workspace, the Workspace will be scrolled to and expanded automatically.
-   - Avatars will show in the section header of any shared Cloud Workspace.
- - Git Executable - Experimental Feature:
-   - Push tag support added.
-
-### Bug Fixes 🐛
- - Fixed an issue where the client would fail to load Bitbucket Server users.
- - Experimental Feature - Git Executable:
-   - Fixed an issue where continuing a rebase would fail if the current commit message started with `#` after a conflict.
-
- ***
-
-<a id="v10-0-1"></a>
-## Version 10.0.1
+New Improvements
 
 _“To err is human; to forgive, divine”_
 
